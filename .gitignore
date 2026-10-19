@@ -1,0 +1,18 @@
+/target
+# Per-developer build env (signing identities, SDK paths). cargo truce
+# reads this file for [env] values - keep it out of the repo.
+/.cargo/config.toml
+.DS_Store
+
+# Third-party material used during research - not ours to redistribute.
+# See README ("Material de pesquisa") for where to obtain it.
+/research/SM58/
+/research/U87/
+/research/impulse_response/
+/research/data/*.png
+
+# Reverse-engineering notes on a third-party plugin (kept local).
+/docs/BESURE_ANALYSIS.md
+/tools/besure_reconstruct.py
+__pycache__/
+/docs/detail.png
